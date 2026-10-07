@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" data-page-node-id="eJpbQUjWtwbm1CxCj90Lsb" data-dm-ref="1" style=""><head data-page-node-id="k3w6IKFbnpppkhhX5ibrqu" style="background-color: rgb(0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box;">
+<meta charset="UTF-8" data-page-node-id="AmHqOeVVau0zVUopVqUMQF">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="OCJDKGJM7i1u7Bhr1YKq4n"><title data-page-node-id="AbYwAFhqAhgMrVRxVABxGj" data-pnid-children="Aksx7HRJ3wv1tu6SxkZidk" style="margin:0;padding:0;box-sizing:border-box">WINDVIVID — Apparel Manufacturer, Concept to Completion</title><title data-page-node-id="B6ZY0EZhaN9Nuj8jlKbHE4" data-pnid-children="2Ce6S3F09C3FiUGmb7FreS" style="margin:0;padding:0;box-sizing:border-box;-webkit-user-drag:none !important">WINDVIVID — Apparel Manufacturer, Concept to Completion</title><title data-page-node-id="JvVAhIEgH3lEE53s9SITxX" data-pnid-children="U3TvvVCAkosvbKVZAfU0Hf" style="margin:0;padding:0;box-sizing:border-box;-webkit-user-drag:none !important">WINDVIVID — Apparel Manufacturer, Concept to Completion</title>
+<title>WINDVIVID — Apparel Manufacturer, Concept to Completion</title>
+<meta name="description" content="Windvivid is more than a manufacturer. Pattern, fabric, craftsmanship, accessories, packaging — 1 stop, all related to apparel, concept to completion." data-page-node-id="i20BXttCAwcfA6o0nj2UPR">
+<link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="Q6EzrHb7nAzqAaiTJGgrhp">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" data-page-node-id="P4ARxW3DDrIm6LsY5Hl6w0">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" data-page-node-id="5GndqSCQ3Ej6vh9vz0dO9j">
+<style>
+  :root{
+    --ink:#0A1F33;            /* deep navy ink */
+    --ink-soft:#33475C;
+    --ink-faint:#6B7E92;
+    --paper:#F7F9FB;          /* blue-tinted off-white */
+    --paper-deep:#EDF1F5;
+    --line:#D8E0E8;
+    --blue:#1F5EE0;           /* electric blue accent */
+    --blue-deep:#123E9C;
+    --blue-mist:#E3ECFA;
+    --white:#FFFFFF;
+    --radius:14px;
+    --max:1180px;
+    --font-display:"Fraunces", Georgia, "Times New Roman", serif;
+    --font-body:"Inter", "Helvetica Neue", Arial, sans-serif;
+    --ease:cubic-bezier(.22,1,.36,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--font-body);
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--blue);color:#fff}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+
+  /* ---------- kicker / labels ---------- */
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;
+    font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--blue);
+  }
+  .kicker::before{content:"";width:28px;height:1px;background:var(--blue)}
+
+  /* ---------- header ---------- */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    transition:background .4s var(--ease), box-shadow .4s var(--ease);
+  }
+  header.scrolled{
+    background:rgba(247,249,251,.86);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    box-shadow:0 1px 0 var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    height:72px;
+  }
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo svg{width:30px;height:30px}
+  .logo-word{
+    font-family:var(--font-display);font-weight:600;font-size:19px;letter-spacing:.04em;
+  }
+  .logo-word span{color:var(--blue)}
+  nav ul{display:flex;gap:36px;list-style:none}
+  nav a{font-size:14px;font-weight:500;color:var(--ink-soft);position:relative;padding:4px 0}
+  nav a::after{
+    content:"";position:absolute;left:0;bottom:0;width:0;height:1.5px;background:var(--blue);
+    transition:width .35s var(--ease);
+  }
+  nav a:hover{color:var(--ink)}
+  nav a:hover::after{width:100%}
+  .nav-cta{
+    font-size:14px;font-weight:600;color:#fff !important;
+    background:var(--ink);padding:10px 22px;border-radius:999px;
+    transition:background .3s var(--ease), transform .3s var(--ease);
+  }
+  .nav-cta::after{display:none}
+  .nav-cta:hover{background:var(--blue);transform:translateY(-1px)}
+  @media(max-width:820px){nav ul{display:none}}
+
+  /* ---------- hero / story ---------- */
+  .hero{
+    min-height:100svh;
+    display:flex;flex-direction:column;justify-content:center;
+    position:relative;padding:120px 0 90px;
+  }
+  .wind-bg{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+  .wind-bg svg{
+    position:absolute;right:-6%;top:8%;width:min(70vw,900px);height:auto;opacity:.9;
+  }
+  .wind-line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 3s var(--ease) forwards}
+  .wind-line:nth-child(2){animation-delay:.25s}
+  .wind-line:nth-child(3){animation-delay:.5s}
+  .wind-line:nth-child(4){animation-delay:.75s}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @media(max-width:720px){.wind-bg svg{right:-40%;top:0;opacity:.5}}
+
+  .hero h1{
+    font-family:var(--font-display);
+    font-weight:400;
+    font-size:clamp(40px,6.4vw,88px);
+    line-height:1.08;
+    letter-spacing:-.015em;
+  }
+  .hero h1 em{
+    font-style:italic;color:var(--blue);
+  }
+  .hero-that{
+    margin-top:30px;
+    font-family:var(--font-display);font-style:italic;font-weight:400;
+    font-size:clamp(18px,2vw,24px);color:var(--ink-soft);
+  }
+  .hero-story{margin-top:clamp(32px,4.5vw,56px);max-width:62ch}
+  .hero-story>p{
+    font-size:clamp(16px,1.6vw,19px);color:var(--ink-soft);
+  }
+  .hero-story .blue-list{color:var(--blue);font-weight:500}
+  .hero-results{
+    margin-top:clamp(28px,3.6vw,44px);
+    font-family:var(--font-display);font-weight:500;
+    font-size:clamp(21px,2.6vw,31px);line-height:1.25;letter-spacing:-.005em;
+    color:var(--ink);
+  }
+  .hero-credo{
+    margin-top:clamp(20px,2.6vw,30px);
+    display:flex;gap:clamp(22px,3.4vw,48px);flex-wrap:wrap;
+    font-family:var(--font-display);font-style:italic;font-weight:500;
+    font-size:clamp(24px,3.2vw,38px);
+  }
+  .hero-credo .v{color:var(--blue)}
+  .hero-contact{
+    display:inline-flex;align-items:center;gap:8px;
+    margin-top:clamp(30px,4vw,48px);
+    font-size:15px;font-weight:600;color:var(--blue);
+    padding-bottom:5px;border-bottom:1.5px solid var(--blue);
+    transition:opacity .3s var(--ease),transform .3s var(--ease);
+  }
+  .hero-contact:hover{opacity:.75;transform:translateY(2px)}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease), transform .9s var(--ease)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- sections ---------- */
+  section{padding:clamp(80px,10vw,140px) 0}
+  .section-head{max-width:640px;margin-bottom:clamp(44px,6vw,72px)}
+  .section-head h2{
+    font-family:var(--font-display);font-weight:400;
+    font-size:clamp(32px,4.6vw,54px);line-height:1.12;letter-spacing:-.01em;
+    margin-top:18px;
+  }
+  .section-head h2 em{font-style:italic;color:var(--blue)}
+  .section-head p{margin-top:20px;color:var(--ink-soft);font-size:17px}
+  .section-head .kicker{margin-top:16px}
+  .service-jump{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}
+  .jump-link{
+    font-size:15px;font-weight:600;color:var(--ink);
+    border:1px solid var(--line);border-radius:999px;padding:13px 28px;
+    transition:border-color .3s var(--ease),color .3s var(--ease),transform .3s var(--ease);
+  }
+  .jump-link:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
+  #sample-making,#bulk-production{scroll-margin-top:96px}
+
+  /* ---------- services ---------- */
+  .services{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .service{
+    display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+    gap:clamp(40px,6vw,90px);
+    padding:clamp(48px,6vw,80px) 0;
+  }
+  .service + .service{border-top:1px solid var(--line)}
+  @media(max-width:900px){.service{grid-template-columns:1fr}}
+  .service-no, .results-title{
+    font-family:var(--font-display);font-weight:600;
+    font-size:clamp(32px,4.2vw,50px);line-height:1.15;letter-spacing:-.01em;
+    color:var(--ink);
+  }
+  .service-info>p{margin-top:20px;color:var(--ink-soft);font-size:16.5px}
+  .service-info .fine{
+    margin-top:16px;font-size:14px;color:var(--ink-faint);
+    padding-left:14px;border-left:2px solid var(--blue-mist);
+  }
+  .service-badge{
+    display:inline-flex;align-items:center;gap:8px;margin-top:24px;
+    font-size:13px;font-weight:600;color:var(--blue);
+    background:var(--blue-mist);padding:9px 16px;border-radius:999px;
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  .faq h4{
+    font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--ink-faint);margin-bottom:8px;
+  }
+  .faq details{border-bottom:1px solid var(--line)}
+  .faq details:first-of-type{border-top:1px solid var(--line)}
+  .faq summary{
+    list-style:none;cursor:pointer;
+    display:flex;align-items:center;justify-content:space-between;gap:20px;
+    padding:22px 4px;
+    font-size:16.5px;font-weight:600;color:var(--ink);
+    transition:color .3s var(--ease);
+  }
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:hover{color:var(--blue)}
+  .faq .icon{
+    flex:0 0 30px;height:30px;border-radius:50%;border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;position:relative;
+    transition:background .3s var(--ease),border-color .3s var(--ease),transform .4s var(--ease);
+  }
+  .faq .icon::before,.faq .icon::after{
+    content:"";position:absolute;background:var(--ink);border-radius:2px;
+    transition:background .3s var(--ease),transform .4s var(--ease);
+  }
+  .faq .icon::before{width:12px;height:1.5px}
+  .faq .icon::after{width:1.5px;height:12px}
+  .faq details[open] .icon{background:var(--blue);border-color:var(--blue);transform:rotate(180deg)}
+  .faq details[open] .icon::before,
+  .faq details[open] .icon::after{background:#fff}
+  .faq details[open] .icon::after{transform:scaleY(0)}
+  .faq .answer{padding:0 44px 24px 4px;color:var(--ink-soft);font-size:15.5px;max-width:60ch}
+  .faq .answer ul{margin:10px 0 0 18px}
+  .faq .answer li{margin-top:4px}
+
+  /* ---------- results ---------- */
+  .results-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
+  }
+  @media(max-width:1080px){.results-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.results-grid{grid-template-columns:1fr}}
+  .card{
+    background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
+    padding:32px 28px 30px;
+    display:flex;flex-direction:column;
+    transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease);
+  }
+  .card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 24px 48px -20px rgba(10,31,51,.18);
+    border-color:transparent;
+  }
+  .card-no{
+    font-family:var(--font-display);font-size:14px;color:var(--blue);letter-spacing:.1em;
+  }
+  .card h3{
+    font-family:var(--font-display);font-weight:500;font-size:22px;line-height:1.25;
+    margin:12px 0 14px;letter-spacing:-.005em;
+  }
+  .card p{font-size:14.5px;color:var(--ink-soft);flex:1}
+  .card .quote{
+    margin-top:22px;padding-top:18px;border-top:1px solid var(--line);
+    font-family:var(--font-display);font-style:italic;font-size:14.5px;color:var(--blue-deep);
+  }
+  .card:nth-child(even){background:var(--blue-mist);border-color:transparent}
+  .card:nth-child(even) .quote{color:var(--blue-deep)}
+
+  /* ---------- contact ---------- */
+  .contact{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .contact .wind-bg svg{right:auto;left:-8%;top:auto;bottom:-10%;opacity:.35}
+  .contact .wind-line{animation:none;stroke-dashoffset:0}
+  .contact-cards{display:flex;gap:20px;flex-wrap:wrap;position:relative}
+  .contact-card{
+    flex:1 1 300px;max-width:460px;
+    border:1px solid rgba(255,255,255,.14);border-radius:var(--radius);
+    padding:26px 28px;
+    display:flex;align-items:center;gap:18px;
+    transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease);
+  }
+  .contact-card:hover{border-color:var(--blue);background:rgba(31,94,224,.08);transform:translateY(-3px)}
+  .contact-card .cc-icon{
+    flex:0 0 46px;height:46px;border-radius:50%;
+    background:rgba(31,94,224,.2);display:flex;align-items:center;justify-content:center;
+  }
+  .contact-card .cc-icon svg{width:22px;height:22px;fill:#7FA8F5}
+  .contact-card small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px}
+  .contact-card b{font-size:17px;font-weight:600;letter-spacing:.01em}
+
+  footer{
+    background:var(--ink);color:rgba(255,255,255,.4);
+    border-top:1px solid rgba(255,255,255,.1);
+    padding:28px 0;font-size:13px;
+  }
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer b{color:rgba(255,255,255,.7);font-weight:600}
+</style>
+<style id="__dm_no_drag_style__">* { -webkit-user-drag: none !important; }</style><style id="__dm_bindable_badge_style__">[data-sp-bindable="database"]{outline:1px dashed #0088ff;outline-offset:2px;border-radius:4px;}[data-sp-bindable="database"] *{pointer-events:none !important;transition:none !important;animation:none !important;}[data-sp-bindable="database"]{transition:none !important;animation:none !important;}</style></head>
+<body data-page-node-id="O0n0foFsJ7CPmBstFZvNkz" style="position: relative; margin: 0px; padding: 0px; box-sizing: border-box; font-family: Inter, &quot;Helvetica Neue&quot;, Arial, sans-serif; background: rgb(247, 249, 251); color: rgb(10, 31, 51); line-height: 1.65; -webkit-font-smoothing: antialiased; overflow-x: hidden;">
+
+<!-- ================= HEADER ================= -->
+<header id="header" data-page-node-id="C2tjL2ejBnqmbuQOxGEMCL" class="scrolled" style="margin: 0px; padding: 0px; box-sizing: border-box; position: fixed; top: 0px; left: 0px; right: 0px; z-index: 50; transition: background 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);">
+  <div class="wrap nav" data-page-node-id="KW6QgAtGHnMnCwRqXbYDUa">
+    <a class="logo" href="#top" aria-label="Windvivid home" data-page-node-id="ivtVKDCtfC3fr6OxSSblli">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" data-page-node-id="bC5HZt3kTV9Dap2mC6aWjU">
+        <path d="M2 11c5-6 10-6 14-2s9 4 14-2" stroke="#1F5EE0" stroke-width="2.4" stroke-linecap="round" data-page-node-id="VX1OxHnuVmaiWExGoSzwrA"></path>
+        <path d="M2 21c5-6 10-6 14-2s9 4 14-2" stroke="#0A1F33" stroke-width="2.4" stroke-linecap="round" data-page-node-id="DKA2ozRSSORyZbRz0fQU11"></path>
+      </svg>
+      <span class="logo-word" data-page-node-id="MDcUIWMzOVAltSMjr5joyj">WIND<span data-page-node-id="pyEWN6O7BUwWRkbV0UB6Pj">VIVID</span></span>
+    </a>
+    <nav aria-label="Main navigation" data-page-node-id="mdBuKu2x8O28A5BCh5zfXf">
+      <ul data-page-node-id="LaES2lBifRgUyWPA398FR0">
+        <li data-page-node-id="eaXAdOtxhOFcPoIl3FDAgN"><a href="#top" data-page-node-id="sdJvTKkRNJZFXTYrMKZznh">Story</a></li>
+        <li data-page-node-id="PSybaQfMTYOMaqyn3PRYRm"><a href="#services" data-page-node-id="WnQcLPaqLPPlc950cfO7jg">Services</a></li>
+        <li data-page-node-id="64drfnN4xVlNeQpOGn3eaA"><a href="#results" data-page-node-id="RHGIxiFUoZi7J9a7TxSB8Q">Results</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="#contact" data-page-node-id="mK3DTK8A57h9xZrYRJLFRy">Start a Project</a>
+  </div>
+</header>
+
+<!-- ================= HERO / STORY (verbatim) ================= -->
+
+
+<!-- ================= SERVICES ================= -->
+<section class="hero" id="top" data-page-node-id="mKfV0uedYg3r2YEBKB7R3A">
+  <div class="wind-bg" aria-hidden="true" data-page-node-id="o3zcsQw3QbFUVdoGRkPYWL">
+    <svg viewBox="0 0 800 520" fill="none" data-page-node-id="9bFMDMxrSbUrFX1E11aBH7">
+      <path class="wind-line" d="M-40 90 C 200 20, 380 200, 560 120 S 840 40, 900 140" stroke="#D8E4F5" stroke-width="1.6" data-page-node-id="366n0UE1M8D0n6T9EZXET2"></path>
+      <path class="wind-line" d="M-40 190 C 220 120, 400 300, 590 210 S 860 130, 920 240" stroke="#C6D8F2" stroke-width="1.6" data-page-node-id="QBIvkqJrwI0UylDcH5NPOD"></path>
+      <path class="wind-line" d="M-40 300 C 180 240, 420 400, 610 310 S 850 240, 920 340" stroke="#B4CDF0" stroke-width="1.8" data-page-node-id="6dFeT2jn0CiBgHwtbko0hV"></path>
+      <path class="wind-line" d="M-40 410 C 240 340, 430 500, 630 410 S 860 350, 920 440" stroke="#D8E4F5" stroke-width="1.6" data-page-node-id="F1dW0qWtfbgR3XFoBMwIDW"></path>
+    </svg>
+  </div><div class="wrap" data-page-node-id="UprtedFb18Ja6grkjyELzw" style="border-width: 1px; border-style: solid; border-color: transparent;">
+    <h1 data-page-node-id="MzfYZt6ox2GBNiuuMF4JBd" style="font-style: normal; margin: 0px; padding: 0px; box-sizing: border-box; font-family: Fraunces, Georgia, &quot;Times New Roman&quot;, serif; font-weight: 400; font-size: clamp(40px, 6.4vw, 88px); line-height: 1.08; letter-spacing: -0.015em; white-space: pre-wrap;">You can't see wind. 
+But when wind moves,<br><em data-page-node-id="jcCixyiYQcFqtJ8bCpffso" style="margin:0;padding:0;box-sizing:border-box;-webkit-user-drag:none !important;font-style:italic;color:#1F5EE0">color speaks.</em></h1>
+    <p class="hero-that" data-page-node-id="IOyvGnz69cSh2GSBkO609Y">That's what we do.</p>
+    <div class="hero-story" data-page-node-id="R8RJw4AFAuiRK14UQLx4Xy">
+      <p data-page-node-id="C2E4CIOvWWEEzPBF5PuKQW" style="white-space: pre-wrap; font-weight: 400; color: rgb(0, 0, 0);">windvivid is more than a manufacturer. We're the wind that carries your idea into a finished collection — the expertise you never see, but every piece proves was there. You bring the vision. We make it vivid: <span data-page-node-id="s2gu7igsjGwL70DPhVpOzJ" class="blue-list" style="margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(31, 94, 224); font-weight: 700; white-space: pre-wrap; -webkit-user-drag: none !important;">pattern, fabric, craftsmanship, accessories, packaging
+— 1 stop, all related to apparel, concept to completion.</span></p>
+      <p class="hero-results" data-page-node-id="EhomQWBlaxB3kjCxJiKIRj">We don't do spotlight. We do results.</p>
+      <p class="hero-credo" data-page-node-id="uJinBrBP9qGtgJlK4dVdbQ" style="background-color: transparent;"><span data-page-node-id="Urcjr0Yj5x5tHjFsicBNrA">Discreet.</span><span data-page-node-id="jnvxA9dnBY946lS2BrIvvi">Reliable.</span><span class="v" data-page-node-id="FCOC88dXtVAJMTPOHk1y6G" style="">Vivid.​</span></p><a data-page-node-id="2HFAWqiMTCHCrt89QPYrU5" class="hero-contact" href="#contact" style="margin:0;padding:0;box-sizing:border-box;color:#1F5EE0;text-decoration:none;display:inline-flex;align-items:center;gap:8px;margin-top:clamp(30px,4vw,48px);font-size:15px;font-weight:600;padding-bottom:5px;border-bottom:1.5px solid #1F5EE0;transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1)">Contact us ↓</a>
+      
+    </div>
+  </div>
+  
+
+  
+</section><section class="services" id="services" data-page-node-id="ejpQeo7qbX4FKvI0tSjDKi">
+  <div class="wrap" data-page-node-id="iOdiGn9HmTvg6JnFp9Zxxl">
+    <div class="section-head reveal in" data-page-node-id="UUbthsHy1Adp2tAE9lhcO0">
+      <h2 data-page-node-id="4mpdogZUNPJjiPDunQMoak">Services</h2>
+      <p class="kicker head-kicker" data-page-node-id="Opa1D3lBD6m2QjiijVBQ7G">What We Do · all related to apparel</p>
+    </div><div data-page-node-id="aUak070E2KpKWStS3C7X5C" class="service-jump" style="margin:0;padding:0;box-sizing:border-box;display:flex;gap:14px;flex-wrap:wrap;margin-top:40px">
+      <a data-page-node-id="1pYfyy6AXEeEM9hkfSTpWh" class="jump-link" href="#sample-making" style="margin:0;padding:13px 28px;box-sizing:border-box;color:#0A1F33;text-decoration:none;font-size:15px;font-weight:600;border:1px solid #D8E0E8;border-radius:999px;transition:border-color .3s cubic-bezier(.22,1,.36,1),color .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1)">Sample Making</a>
+      <a data-page-node-id="UkAnw5evewBdgvG6HQX048" class="jump-link" href="#bulk-production" style="margin:0;padding:13px 28px;box-sizing:border-box;color:#0A1F33;text-decoration:none;font-size:15px;font-weight:600;border:1px solid #D8E0E8;border-radius:999px;transition:border-color .3s cubic-bezier(.22,1,.36,1),color .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1)">Bulk Production</a>
+    </div>
+    
+
+    <!-- Sample Making -->
+    <article class="service reveal in" id="sample-making" data-page-node-id="F7EAOKq7DqvEpQ9JiKgugc">
+      <div class="service-info" data-page-node-id="6SgXxk3Y4O3qH9gah5Qyn5">
+        <p class="service-no" data-page-node-id="SSuh39czweVDEI6LVaq5aC">Sample Making</p>
+        
+        <p data-page-node-id="fBXWdVBFoVpYKK28oU3uag">
+          Sample making is a must before bulk production. It lets you see your design in real
+          form and helps us accurately estimate material and process costs — preventing issues
+          down the line.
+        </p>
+        <p data-page-node-id="YqJsmoJEWGuYSiDMO7gAPN">
+          At Windvivid, we review your tech pack, spot potential challenges, and offer
+          improvement suggestions. With our expertise and efficient workflow, we deliver
+          samples quickly with excellent craftsmanship.
+        </p>
+        <p class="fine" data-page-node-id="37qtxH6TUH3aiNqxiZmihr">
+          We also accept standalone sample orders and single-piece custom wear. Samples are
+          charged based on actual design — no free sampling.
+        </p>
+        <span class="service-badge" data-page-node-id="LITyCKuYsgFW5MWG2btFbf">Typical sample time: 1–3 weeks</span>
+      </div>
+      <div class="faq" data-page-node-id="Kdgtz3mTsOXRpDCvUh5PS3">
+        <h4 data-page-node-id="Oo4O9CnmUa6xO6yiD7DXWD">Frequently Asked Questions</h4>
+        <details data-page-node-id="IPVj9VHk8Pe05lz6nTwdkU">
+          <summary data-page-node-id="yJJtxKc9ZDSvhHCkHNjEEX">What do I need to provide for sampling?<span class="icon" aria-hidden="true" data-page-node-id="FtBKPwUzjOTpNever6wcfO"></span></summary>
+          <div class="answer" data-page-node-id="KVWQpPUpxrtR5Z59uyrM71">
+            You need to provide your design tech pack. It can be in any format, as long as it
+            clearly communicates your requirements. It typically includes: mock up/sketches,
+            sizing, measurement, fabric, craftsmanship, sewing, and reference images.
+          </div>
+        </details>
+        <details data-page-node-id="weels41x1LvOjKdb6MGRjt">
+          <summary data-page-node-id="lSzrAWrUMghHt5NlEFYMCD">Can I customize the sizing?<span class="icon" aria-hidden="true" data-page-node-id="T9pncv6bKmCfxZr0DldCAz"></span></summary>
+          <div class="answer" data-page-node-id="SxbwBa75upUlIuA0VSAfax">
+            Absolutely. We welcome custom sizing based on your physical samples. We also
+            provide a size guide to help you measure garments correctly.
+          </div>
+        </details>
+        <details data-page-node-id="eOdkOlTJxHDKHKIHlq1anF">
+          <summary data-page-node-id="zYMZDpbHXAoRdJrv7qfxqU">How long does sampling usually take?<span class="icon" aria-hidden="true" data-page-node-id="GwvJ9ZKUTJaZQuS7r1SGIm"></span></summary>
+          <div class="answer" data-page-node-id="rGk2uuzB7WFyC0yFVkJ7R3">
+            Sample making typically takes 1–3 weeks, depending on your specific design.
+            Shipping takes 3–10 days, depending on the shipping method and destination you choose.
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <!-- Bulk Production -->
+    <article class="service reveal in" id="bulk-production" data-page-node-id="RF8Q7bop6Ihe9WnPiJp4t0">
+      <div class="service-info" data-page-node-id="1TaPFDGosMmaPsRfL09zSq">
+        <p class="service-no" data-page-node-id="wudJbQ9qIcJQ6Az8smNd08">Bulk Production</p>
+        <p data-page-node-id="nUG4AfCePyWiZUMog8F1Mq">
+          Windvivid delivers efficient and reliable bulk production. From sample to bulk order,
+          we uphold the same high standards to ensure consistent quality and attention to
+          detail. We also offer flexible supporting solutions tailored to your specific needs.
+        </p>
+        <p data-page-node-id="sHDQGtZru1j5bXtLta9LFO">
+          Worried about fabrics, patterns, or craftsmanship? We're based in China. With the
+          right budget and quantity, we can make almost anything you can imagine.
+        </p>
+        <span class="service-badge" data-page-node-id="tBdeheiLD9lZ9pCHi0avpN">Typical bulk time: 2–4 weeks after sample approval</span>
+      </div>
+      <div class="faq" data-page-node-id="GXVTGfZq3SxxFVUZDzpDDX">
+        <h4 data-page-node-id="venBqliNuyHHNCANvO85dN">Frequently Asked Questions</h4>
+        <details data-page-node-id="C5YsiX14ZLalZrlKDBCR7s">
+          <summary data-page-node-id="zdoZJkSHN8PxBydqCpoBiI">What do I need to prepare before production?<span class="icon" aria-hidden="true" data-page-node-id="Xi5rGODUbtgNqKhgE3vuko"></span></summary>
+          <div class="answer" data-page-node-id="dT6bNZ78jSygkQDDHEo0Fe">
+            You'll need a sample — either made by Windvivid or provided by you.
+          </div>
+        </details>
+        <details data-page-node-id="CnnzTRx3EXK20hH8SaZu1H">
+          <summary data-page-node-id="vOohQMcLuvHtmKu5m9rBHt">What is the MOQ?<span class="icon" aria-hidden="true" data-page-node-id="1mP5y3vgmI22zdHK41WOBA"></span></summary>
+          <div class="answer" data-page-node-id="2Q0kWpnqMri3DUgss0Vou2">
+            We don't have a set MOQ, but lower quantities mean higher unit costs. Generally,
+            using up one full roll of fabric per design is the most cost-effective — roughly
+            30 hoodies or 50 T-shirts per roll, depending on the fabric and design.
+          </div>
+        </details>
+        <details data-page-node-id="6WKBN8HWfEGJYEfjWh3B16">
+          <summary data-page-node-id="Hdtl2idAIGpPC1uVC3Oye0">Are there any size restrictions?<span class="icon" aria-hidden="true" data-page-node-id="h8fqGR5AbArQfCF8IJeOWc"></span></summary>
+          <div class="answer" data-page-node-id="7S2N0EbznJV5jIwBDu9auo">
+            None at all. Just let us know your size range in advance so we can quote accurately.
+          </div>
+        </details>
+        <details data-page-node-id="sYnk6EIBatAMA48Ly9Wi7T">
+          <summary data-page-node-id="52hDrLqaAOvuoLZPHRhNrR">How long does bulk production take?<span class="icon" aria-hidden="true" data-page-node-id="azUf9d9fQxnBo3ydGIuyRM"></span></summary>
+          <div class="answer" data-page-node-id="RXOpH2jvh8g7uHPCmKv1VD">
+            About 2–4 weeks after pre-production sample approval, depending on the design.
+          </div>
+        </details>
+        <details data-page-node-id="t6vAX2leXDvObYufTpWDVO">
+          <summary data-page-node-id="3bK5rF2LzGvP5HcsbiuQ8q">What shipping options do you offer?<span class="icon" aria-hidden="true" data-page-node-id="YZ28fNhF4d3s7WUsMOxJYU"></span></summary>
+          <div class="answer" data-page-node-id="ovgcu0Ej8jiA8JAT33O4Zh">
+            We can arrange sea freight, air freight, or courier based on your needs. You're
+            also welcome to use your own forwarder.
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= RESULTS ================= -->
+<section class="results" id="results" data-page-node-id="zBCj4ooOv5WFYAMkzYIkK7">
+  <div class="wrap" data-page-node-id="Nj1tZqbHF80RxSREiBd3XZ">
+    <div class="section-head reveal in" data-page-node-id="KF0f1L0Dfn4VTUr5gJG1pn">
+      <p class="results-title" data-page-node-id="DnII1C0f42Zbo31oVZwtGF" style="margin: 20px 0px 0px; padding: 0px; box-sizing: border-box; font-family: Fraunces, Georgia, &quot;Times New Roman&quot;, serif; font-weight: 400; font-size: clamp(32px, 4.6vw, 54px); line-height: 1.12; letter-spacing: -0.01em; color: rgb(10, 31, 51);">Real Results, Real Clients</p>
+    </div>
+    <div class="results-grid" data-page-node-id="d1NgWupSxV5YReHOdLUQLl">
+      <article class="card reveal in" data-page-node-id="6wM2EqgxP3pVHD3MGXC5VQ">
+        <span class="card-no" data-page-node-id="aZyu1RocmCrQW7F9vEG36s">CLIENT A</span>
+        <h3 data-page-node-id="bOkDp7uvllceYkjNXAKMl8">From Sketch to Success</h3>
+        <p data-page-node-id="CeWOcClUQ5bzjPfVK4RBLJ">
+          Client A knew nothing about the garment industry at first, providing only
+          hand-drawn sketches and reference images. With Windvivid's patient guidance and
+          accurate interpretation, we successfully produced an entire collection. Today,
+          A has become a true expert in the field.
+        </p>
+      </article>
+      <article class="card reveal in" data-page-node-id="GRLG8vMoOwUcuboqTrhzBL">
+        <span class="card-no" data-page-node-id="qlbusJPS9LgZklJgjoCmM0">CLIENT B</span>
+        <h3 data-page-node-id="PqlsB4EriOYPKNJbw67KTS">Speed That Keeps Pace</h3>
+        <p data-page-node-id="f2Lii3Z5iqVX85gaVjH77c">
+          Client B runs a small-batch, quick-response business focused on T-shirts. He said
+          his previous factory took 40 days to produce T-shirts, while Windvivid delivered in
+          as little as 4 days — solving his supply chain bottleneck and keeping his marketing
+          pace on track.
+        </p>
+        <p class="quote" data-page-node-id="s3WRgfzgxDV8eSAhiHXcQd">40 days → 4 days</p>
+      </article>
+      <article class="card reveal in" data-page-node-id="QjRvhDIZAz7EZ5VklH0BLZ">
+        <span class="card-no" data-page-node-id="djo8slrnLShLoDYdRv4IgJ">CLIENT C</span>
+        <h3 data-page-node-id="eogXZsvDYdyG5ZcjRS3DUn">The Fabric Expert</h3>
+        <p data-page-node-id="ABGtZPNc9KPA7YDFXACW1w">
+          Client C has extremely high standards for fabrics. Windvivid patiently explained
+          the pros and cons of various fabrics and materials. To give him full confidence
+          before sampling, we include the latest swatch cards with every sample or bulk
+          shipment — allowing him to experience new fabrics firsthand without leaving his home.
+        </p>
+        <p class="quote" data-page-node-id="pB8cY7kSD24sFHPYjN3j1G">"Thank you, Windvivid, for making me feel like I'm right in China."</p>
+      </article>
+      <article class="card reveal in" data-page-node-id="fDHHQ6dSONFKrswIvGdwAv">
+        <span class="card-no" data-page-node-id="IG3VrZPUzC767kDJjOSUP7">CLIENT D</span>
+        <h3 data-page-node-id="fadhgsX3JwtAVZWvb7ConC">Fit You Can Trust</h3>
+        <p data-page-node-id="2lXEyo8SSbUDdEeRI2SiOF">
+          Client D focuses on personalized custom products. His biggest concern was paying a
+          premium for custom garments only to receive pieces that didn't fit. Windvivid taught
+          him how to take accurate body and garment measurements, and we even had fit models
+          with similar body types try on the pieces — completely putting his worries to rest.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact" data-page-node-id="6atWS5rR7AOWqqAw2YxWCE">
+  <div class="wind-bg" aria-hidden="true" data-page-node-id="oUAgjRWoZIkng1VDkXr0lC">
+    <svg viewBox="0 0 800 520" fill="none" data-page-node-id="CjRYqUeBx0jand9biFA1gk">
+      <path d="M-40 90 C 200 20, 380 200, 560 120 S 840 40, 900 140" stroke="#1F5EE0" stroke-width="1.6" data-page-node-id="jeFESBizB4TmGnzHLoJWjp"></path>
+      <path d="M-40 190 C 220 120, 400 300, 590 210 S 860 130, 920 240" stroke="#1F5EE0" stroke-width="1.6" data-page-node-id="xcunVWKymDlDMofg4g9xDu"></path>
+      <path d="M-40 300 C 180 240, 420 400, 610 310 S 850 240, 920 340" stroke="#1F5EE0" stroke-width="1.8" data-page-node-id="1TGrpb3D5w4AN5OPZMEh6G"></path>
+    </svg>
+  </div>
+  <div class="wrap" data-page-node-id="rgZa0t6jcNiMPO16G1fHcK">
+    <div class="contact-cards" data-page-node-id="jAEEP7G1LSXzUZ0gJU3In2">
+      <a class="contact-card" href="https://wa.me/8613113746587" target="_blank" rel="noopener" data-page-node-id="vnhol2eJGOnAXKzzs9eODD">
+        <span class="cc-icon" aria-hidden="true" data-page-node-id="N9ltRoSXj5P9CfYN7rawWu">
+          <svg viewBox="0 0 24 24" data-page-node-id="QYFsMr6G94FSznRlkpErtk"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4 .6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2 0-.2-.2-.2-.4-.3z" data-page-node-id="OuBPzReGT4ZT0VMrKz2pbx"></path></svg>
+        </span>
+        <span data-page-node-id="i143q5lt1PDEJPXBdL2haa"><small data-page-node-id="s1HRLhQDg6xKnZsQXWH0Kg">Whatsapp</small><b data-page-node-id="joHfyPL9mXXRttxU1oBo6n">+86 13113746587</b></span>
+      </a>
+      <a class="contact-card" href="mailto:mfg@windvivid.com" data-page-node-id="2ZeFwcfFsFhRaUHfh4wt2R">
+        <span class="cc-icon" aria-hidden="true" data-page-node-id="oVeqDb0WeIWhF5TSWhPb5v">
+          <svg viewBox="0 0 24 24" data-page-node-id="VAHuqHIS8SbumjOPaXCQLW"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6.4l8 5 8-5v1.8z" data-page-node-id="Q5ABwDu6O6RH1lG3KINXek"></path></svg>
+        </span>
+        <span data-page-node-id="NzDpEDy3JDNAS47SNGLSUU"><small data-page-node-id="nCiaQGNEfxX4164iBvjkRR">E-mail</small><b data-page-node-id="Bd9Vdi8vFZGrdQrPGXndMB">mfg@windvivid.com</b></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer data-page-node-id="nfJnhlsKxh0chFOHHGXnkA">
+  <div class="wrap" data-page-node-id="GIoAQFf0wUQBZUPKQTPIiJ">
+    <span data-page-node-id="mAEUNTBU42hITPf9hed8eI">Discreet · Reliable · Vivid</span>
+    <span data-page-node-id="mjW470ea833d56KaqwxFEg">© 2026 Windvivid. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  // sticky header state
+  const header = document.getElementById('header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 24);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // scroll reveal
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // close other FAQ items within the same group when one opens
+  document.querySelectorAll('.faq').forEach(group => {
+    group.addEventListener('toggle', e => {
+      if (e.target.open) group.querySelectorAll('details[open]').forEach(d => { if (d !== e.target) d.open = false; });
+    }, true);
+  });
+</script>
+
+
+
+
+
+
+
+
+
+</body></html>
